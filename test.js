@@ -1,4 +1,4 @@
-function test(num) {
+function even(num) {
   let even = [];
   for(let i = 2; i <=50; i++) {
     if( i % 2 === 0) {
@@ -7,4 +7,4 @@ function test(num) {
   }  return even;
 }
 
-test()
+even()
